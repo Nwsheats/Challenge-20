@@ -4,7 +4,7 @@ import '../styles/Nav.css';
 const styles = {
     navStyle: {
       background: '#6a1b9a',
-      justifyContent: 'flex-center',
+      justifyContent: 'flex-end',
     },
   };
   

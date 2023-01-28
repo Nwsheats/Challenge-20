@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Header from './components/Header';
-import Project from './components/Project';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Nav />
-      <Project />
+      <Projects />
       <Footer />
     </div>
   );

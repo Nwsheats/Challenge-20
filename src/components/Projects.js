@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Project.css';
+import '../styles/Projects.css';
 
 
 const styles = {
@@ -18,16 +18,19 @@ const projectNames = [
     "project1", "project2", "project3", "project4", "project5"
 ]
 
-function Project() {
+function Projects() {
     return (
+        <div>
+        {projectNames.map((project) =>         
         <div class={styles.projectStyle} className="projectDiv">
         <div class={styles.secondDivStyle} className="secondDiv">
-        <h3 class={styles.projectFont} className="pFont">{projectNames[0]}</h3>
+        <h3 class={styles.projectFont} className="pFont">{project}</h3>
         <h5>Project</h5>
         </div>
+        </div>)}
         </div>
     )
 }
 
 
-export default Project;
+export default Projects;
