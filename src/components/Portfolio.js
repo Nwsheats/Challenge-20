@@ -15,7 +15,7 @@ const styles = {
         flexWrap: 'wrap',
         gap: '1rem',
         marginTop: '10px'
-    }
+    },
     }
 }
 

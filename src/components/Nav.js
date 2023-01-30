@@ -8,23 +8,49 @@ const styles = {
       width: '60%',
       height: '100px',
       padding: '2%',
+      listStyleType: 'none'
     },
     navFont: {
-      fontSize: '30px',
+      fontSize: '40px',
     }
   };
   
-  function Nav() {
+  function Navigator({ currentPage, handlePageChange }) {
+    const handlePageChange = (page) => setCurrentPage(page);
     return (
-      <div style={styles.navStyle} className="nav">
-        <a style={styles.navFont} href="/">About Me</a>
-        <a style={styles.navFont} href="/">Portfolio</a>
-        <a style={styles.navFont} href="/">Contact</a>
-        <a style={styles.navFont} href="/">Resume</a>
-      </div>
+      <ul style={styles.navStyle} className="nav nav-tabs">
+        <li style={styles.navFont} className="nav-item">
+          <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')} 
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
+            About Me
+          </a>
+        </li>
+        <li style={styles.navFont} className="nav-item">
+          <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+            Portfolio
+          </a>
+        </li>
+        <li style={styles.navFont} className="nav-item">
+          <a href="#Contact"
+  
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </a>
+        </li>
+        <li style={styles.navFont} className="nav-item">
+          <a href="#resume"
+  
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+            Resume
+          </a>
+        </li>
+      </ul>
     );
   }
 
 
-
-export default Nav;
+export default Navigator;
