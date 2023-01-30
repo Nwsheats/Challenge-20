@@ -3,10 +3,13 @@ import '../styles/Footer.css';
 
 const styles = {
     footerBg: {
-      background: '#b71775',
+      background: '#6b6b6b',
+      display: 'flex',
+      textAlign: 'center',
     },
     footerFont: {
-      fontSize: '50px',
+      fontSize: '15px',
+      fontColor: 'white'
     },
   };
 

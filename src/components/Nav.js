@@ -3,16 +3,25 @@ import '../styles/Nav.css';
 
 const styles = {
     navStyle: {
-      background: '#6a1b9a',
-      justifyContent: 'flex-end',
+      display: 'flex',
+      justifyContent: 'space-between',
+      width: '60%',
+      height: '100px',
+      padding: '2%',
     },
+    navFont: {
+      fontSize: '30px',
+    }
   };
   
   function Nav() {
     return (
-      <nav style={styles.navStyle} className="nav">
-        <a href="/">Welcome</a>
-      </nav>
+      <div style={styles.navStyle} className="nav">
+        <a style={styles.navFont} href="/">About Me</a>
+        <a style={styles.navFont} href="/">Portfolio</a>
+        <a style={styles.navFont} href="/">Contact</a>
+        <a style={styles.navFont} href="/">Resume</a>
+      </div>
     );
   }
 
