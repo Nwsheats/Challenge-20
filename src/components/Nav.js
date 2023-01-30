@@ -16,7 +16,6 @@ const styles = {
   };
   
   function Navigator({ currentPage, handlePageChange }) {
-    const handlePageChange = (page) => setCurrentPage(page);
     return (
       <ul style={styles.navStyle} className="nav nav-tabs">
         <li style={styles.navFont} className="nav-item">
