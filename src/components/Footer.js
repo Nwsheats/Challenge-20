@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Footer.css';
 import image from '../images/GitHub.png';
 import image2 from '../images/linkedin.png';
 import image3 from '../images/stackoverflow.png';

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Projects.css';
 import image from '../images/gears.jpg';
 import image2 from '../images/bricks.jpg';
 import image3 from '../images/ocean.jpg';
@@ -46,7 +45,6 @@ const styles = {
         display: "flex",
         justifyContent: "center",
         flexDirection: 'row',
-        border: '1px solid',
         width: '100%',
         flexWrap: 'wrap',
         background: '#5CC8FF'
@@ -61,10 +59,8 @@ const styles = {
     },
     projectFont: {
         fontSize: '20px',
-        border: '1px solid',
     },
     secondDivStyle: {
-        border: '1px solid',
         height: '300px',
         width: '100%',
     }
