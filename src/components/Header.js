@@ -35,7 +35,6 @@ function Header() {
         <header style={styles.headerBg} className="header">
             <h3 style={styles.headerFont}>Nathan Sheats</h3>
         </header>
-        <Nav />
         </div>
     )
 }
