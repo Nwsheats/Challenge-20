@@ -5,7 +5,7 @@ const styles = {
   divZero: {
     backgroundColor: '#5CC8FF',
     display: 'flex',
-    height: '700px',
+    height: '850px',
   },
   divOne: {
     backgroundColor: '#5CC8FF',
@@ -15,10 +15,8 @@ const styles = {
     marginLeft: '20px',
     marginRight: '20px',
     marginTop: '20px',
-    border: '1px solid'
   },
   divTwo: {
-    border: '1px solid',
     alignText: 'center',
     width: '65%'
   },
@@ -28,7 +26,10 @@ const styles = {
     borderRadius: '50%',
     width: "80px",
     height: "80px"
-  }
+  },
+  h3: {
+    marginLeft: '20px',
+}
 }
 
 export default function About() {
@@ -38,28 +39,55 @@ export default function About() {
     <div style={styles.divTwo}>
       <h1 style={styles.h1}><u>About Me</u></h1>
       <img style={styles.avatar} src={image} alt="infinity symbol"></img>
-      <h3>
-
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <h3 style={styles.h3}>
+        That there
+        <br></br>
+        That's not me
+        <br></br>
+        I go
+        <br></br>
+        Where I please
+        <br></br>
+        I walk through walls
+        <br></br>
+        I float down the Liffey
+        <br></br>
+        I'm not here
+        <br></br>
+        This isn't happening
+        <br></br>
+        I'm not here
+        <br></br>
+        I'm not here
+        <br></br>
+        In a little while
+        <br></br>
+        I'll be gone
+        <br></br>
+        The moment's already passed
+        <br></br>
+        Yeah, it's gone
+        <br></br>
+        And I'm not here
+        <br></br>
+        This isn't happening
+        <br></br>
+        I'm not here
+        <br></br>
+        I'm not here
+        <br></br>
+        Strobe lights and blown speakers
+        <br></br>
+        Fireworks and hurricanes
+        <br></br>
+        I'm not here
+        <br></br>
+        This isn't happening
+        <br></br>
+        I'm not here
+        <br></br>
+        I'm not here
+        <br></br>
       </h3>
     </div>
     </div>

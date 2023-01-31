@@ -10,34 +10,34 @@ import image6 from '../images/colors.jpg';
 
 const projectNames = [
     {
-    name: "",
+    name: "Back-End Social Network API",
     imgLink: image,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/Social-Network-API"
     },
     {
-    name: "",
+    name: "Go Aware",
     imgLink: image2,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/Go-Aware"
     },
     {
-    name: "",
+    name: "E-Commerce Backend",
     imgLink: image3,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/E-Commerce-Back-End"
     },
     {
-    name: "",
+    name: "Employee Tracker",
     imgLink: image4,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/Employee-Tracker"
     },
     {
-    name: "",
+    name: "Note Taker App",
     imgLink: image5,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/Note-Taker"
     },
     {
-    name: "",
+    name: "Team Profile Generator",
     imgLink: image6,
-    imgURL: ""
+    imgURL: "https://github.com/Nwsheats/Team-Profile-Generator"
     },
 ]
 

@@ -15,10 +15,8 @@ const styles = {
     marginLeft: '150px',
     marginRight: '20px',
     marginTop: '20px',
-    border: '1px solid'
   },
   divTwo: {
-    border: '1px solid',
     display: 'inline-block',
     width: '95%',
     height: '550px'
