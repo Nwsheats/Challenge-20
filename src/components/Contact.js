@@ -48,11 +48,11 @@ export default function Contact() {
     <form style={styles.divTwo} action="action_page.php">
     <label style={styles.labelFont} for="name">Name: </label>
     <br></br>
-    <input style={styles.inputClass} type="text" id="name" name="name" placeholder="Your name"></input>
+    <input style={styles.inputClass} type="text" id="name" name="name" placeholder="Your name" required></input>
     <br></br>
     <label style={styles.labelFont} for="email">Email: </label>
     <br></br>
-    <input style={styles.inputClass} type="text" id="email" name="email" placeholder="Your email address"></input>
+    <input style={styles.inputClass} type="email" id="email" name="email" placeholder="Your email address" required></input>
     <br></br>
     <label style={styles.labelFont} for="message">Message:</label>
     <br></br>
