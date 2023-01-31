@@ -27,7 +27,7 @@ const styles = {
   },
   headerFont: {
     fontSize: "50px",
-    fontFamily: "Arial, Helvetica, sans-serif",
+    fontFamily: "Segoe UI, Helvetica, sans-serif",
     alignSelf: "flex-start",
   },
 };

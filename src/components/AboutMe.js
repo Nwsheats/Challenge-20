@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../images/infinity.jpg';
 
 const styles = {
   divZero: {
@@ -19,10 +20,14 @@ const styles = {
   divTwo: {
     border: '1px solid',
     alignText: 'center',
+    width: '65%'
   },
-
-  h1: {
-    
+  avatar: {
+    border: '3px solid',
+    marginLeft: '10px',
+    borderRadius: '50%',
+    width: "80px",
+    height: "80px"
   }
 }
 
@@ -32,6 +37,7 @@ export default function About() {
     <div style={styles.divOne}>
     <div style={styles.divTwo}>
       <h1 style={styles.h1}><u>About Me</u></h1>
+      <img style={styles.avatar} src={image} alt="infinity symbol"></img>
       <h3>
 
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -40,6 +46,20 @@ export default function About() {
         lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       </h3>
     </div>
     </div>
