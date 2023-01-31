@@ -58,7 +58,6 @@ const styles = {
         margin: '75px',
         height: '300px',
         width: '25%',
-        backgroundSize: 'contain'
     },
     projectFont: {
         fontSize: '20px',

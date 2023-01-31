@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <PortfolioContainer />
+      <Footer />
     </div>
   );
 }

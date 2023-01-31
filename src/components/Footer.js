@@ -5,11 +5,15 @@ const styles = {
     footerBg: {
       background: '#6b6b6b',
       display: 'flex',
-      textAlign: 'center',
+    },
+    footerDiv: {
+      justifyContent: 'center',
+      fontColor: 'white',
     },
     footerFont: {
       fontSize: '15px',
-      fontColor: 'white'
+      fontWeight: 'bold',
+      marginLeft: '1700px'
     },
   };
 
@@ -17,7 +21,9 @@ const styles = {
 function Footer() {
     return (
         <footer style={styles.footerBg} className="footer">
+            <div style={styles.footerDiv}>
             <p style={styles.footerFont}>created by Nathan Sheats</p>
+            </div>
         </footer>
     )
 }
