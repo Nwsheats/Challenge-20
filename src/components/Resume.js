@@ -1,4 +1,5 @@
 import React from 'react';
+import TestResume from './TestResume.pdf';
 
 const styles = {
   divZero: {
@@ -49,7 +50,7 @@ export default function Resume() {
     <div style={styles.divOne}>
     <div style={styles.divTwo}>
       <h1 style={styles.h1}><u>Resume</u></h1>
-      <h4 style={styles.h4}>Download my <a href=''>resume</a></h4>
+      <h4 style={styles.h4}>Download my <a href={TestResume} download="NathanResume.pdf" target="_blank" rel="noreferrer">resume</a></h4>
       <h3 style={styles.h3}>Front-End Proficiencies:</h3>
         <li style={styles.li}>HTML</li>
         <li style={styles.li}>CSS</li>
