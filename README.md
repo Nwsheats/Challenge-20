@@ -1,4 +1,4 @@
-# 20 React: React Portfolio
+# React Portfolio
 
 ![Badge](https://img.shields.io/badge/LICENSE-None-pink?style=for-the-badge&logo=github)
 
