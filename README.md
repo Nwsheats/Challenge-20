@@ -6,13 +6,10 @@
 
 - [Description](#description)
 - [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
 - [Mock Up](#mock-up)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 
