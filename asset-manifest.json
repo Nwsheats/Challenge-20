@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/github.io/static/css/main.9d80536b.css",
-    "main.js": "/github.io/static/js/main.2572e43b.js",
-    "static/media/abstract.png": "/github.io/static/media/abstract.7944ab44398349837d66.png",
-    "static/media/bricks.jpg": "/github.io/static/media/bricks.2b1bb634a97a85735415.jpg",
-    "static/media/sunset.jpg": "/github.io/static/media/sunset.bb7ff3a31d87a4669dcf.jpg",
-    "static/media/ocean.jpg": "/github.io/static/media/ocean.2b9c58675477046db865.jpg",
-    "static/media/circles.jpg": "/github.io/static/media/circles.995c6b82a8c7d1ae8029.jpg",
-    "static/media/colors.jpg": "/github.io/static/media/colors.6d8128adf39962a3361a.jpg",
-    "static/media/gears.jpg": "/github.io/static/media/gears.c2b6bb58b82d5b774bdd.jpg",
-    "static/media/infinity.jpg": "/github.io/static/media/infinity.b95403858e6f01badd16.jpg",
-    "static/media/stackoverflow.png": "/github.io/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
-    "index.html": "/github.io/index.html",
-    "main.9d80536b.css.map": "/github.io/static/css/main.9d80536b.css.map",
-    "main.2572e43b.js.map": "/github.io/static/js/main.2572e43b.js.map"
+    "main.css": "/github.io/React-Portfolio/static/css/main.9d80536b.css",
+    "main.js": "/github.io/React-Portfolio/static/js/main.e2091859.js",
+    "static/media/abstract.png": "/github.io/React-Portfolio/static/media/abstract.7944ab44398349837d66.png",
+    "static/media/bricks.jpg": "/github.io/React-Portfolio/static/media/bricks.2b1bb634a97a85735415.jpg",
+    "static/media/sunset.jpg": "/github.io/React-Portfolio/static/media/sunset.bb7ff3a31d87a4669dcf.jpg",
+    "static/media/ocean.jpg": "/github.io/React-Portfolio/static/media/ocean.2b9c58675477046db865.jpg",
+    "static/media/circles.jpg": "/github.io/React-Portfolio/static/media/circles.995c6b82a8c7d1ae8029.jpg",
+    "static/media/colors.jpg": "/github.io/React-Portfolio/static/media/colors.6d8128adf39962a3361a.jpg",
+    "static/media/gears.jpg": "/github.io/React-Portfolio/static/media/gears.c2b6bb58b82d5b774bdd.jpg",
+    "static/media/infinity.jpg": "/github.io/React-Portfolio/static/media/infinity.b95403858e6f01badd16.jpg",
+    "static/media/stackoverflow.png": "/github.io/React-Portfolio/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
+    "index.html": "/github.io/React-Portfolio/index.html",
+    "main.9d80536b.css.map": "/github.io/React-Portfolio/static/css/main.9d80536b.css.map",
+    "main.e2091859.js.map": "/github.io/React-Portfolio/static/js/main.e2091859.js.map"
   },
   "entrypoints": [
     "static/css/main.9d80536b.css",
-    "static/js/main.2572e43b.js"
+    "static/js/main.e2091859.js"
   ]
 }
